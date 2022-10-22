@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Installlation</title>
+   <!-- bootstrap scripts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!-- css link -->
+    <link rel="stylesheet" href="styles.css">
+   <!-- vector fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/60ce0d8ed8.js" crossorigin="anonymous"></script>
+<!-- font links -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark p-3 bg-dange" id="headerNav">
+    <div class="container-fluid">
+      <ul class="list-unstyled" >
+       <li> <img class="chef-hat" src="images/chef-hat.png" alt=""> </li>      
+       <li><a class="navbar-brand  " href="#">  Ceaser's  </a> </li>        
+      </ul>
+      
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto ">
+        <li class="nav-item">
+          <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Company
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+            <li><a class="dropdown-item" href="#">About Us</a></li>
+            <li><a class="dropdown-item" href="#">Contact us</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </nav>
+      <!-- write up section after navbar -->
+      <!-- make a carousel (product advertisement) -->
+    <section class="top-section">
+      <div class="bread-delivery-div container">
+        <div class="row">
+          <div class="col-6">
+            <span class="bread-delivery">
+              Order your Pasteries and Pick-up at a location nearest to you!!!
+            </span> <br>    
+            <p class="download-button-paragraph">
+              <button type="button" class="btn btn-labeled  btn-primary btn-lg download-button">
+                <span class="glyphicon glyphicon-apple" aria-hidden="true"></span><img class="download-icon" src="C:\Users\Diggz\Desktop\web development\bootstrap-installation\images\apple.png" alt=""> Download</button>
+            </p>      
+            <p class="download-button-paragraph">
+              <button type="button" class="btn btn-labeled  btn-primary btn-lg download-button ">
+                <span class="glyphicon glyphicon-apple" aria-hidden="true"></span><img class="download-icon" src="C:\Users\Diggz\Desktop\web development\bootstrap-installation\images\google-play.png" alt=""> Download</button>
+            </p>
+            
+          </div>
+          <div class="iphone-image-placement col-6">
+            <img class="iphone-image" src="images/smartphone.png" alt="iphone image">
+          </div>
+        </div>
+       
+      </div>  
+      
+     
+
+    </section>
+<!-- this section should stack on each other in smaller screens -->
+    <section class="assurances ">
+      <div class="container d-block p-2">
+       
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="Asssurance-individual-div">
+            <img class="assurance-icon" src="images/wallet.png" alt="wallet-icon"><br>
+             <p class="Affordabl"><h4>Affordable</h4>Enjoy our pocket friendly prices.</p>
+           </div>
+        </div>
+        <div class="col-lg-4">
+          <div class=" Asssurance-individual-div">
+            <img class="assurance-icon" src="images/pin.png" alt="location-icon">
+            <p class="location"><h4>Convenient </h4>Pick-up your products at any outlet closest to you</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="Asssurance-individual-div">
+            <img class="assurance-icon" src="images/medal.png" alt="trophy-icon"> <br>
+            <p class="Best-Qualit"><h4>Best Quality</h4>Guaranteed quality of our products.</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <a href="shop.com"><span class="enter-shop inline" ><i class="fa-solid fa-cart-arrow-down"></i>Enter shop</span></a>      
+
+    </section>
+
+    <!-- testimonial section -->
+    <section class="testimony-sec">
+      <div id="carouselExampleIndicators" class="testimonial carousel slide container-fluid " data-bs-ride="carousel" data-interval="7000" data-pause="hover">
+       
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="testimonial-paragraph">
+              I don't need to worry about school snacks 
+              for my kids. Ceaser's deliveries has made my mornings
+              more enjoyable.
+              <br> <img class="testiomony-photo rounded-circle" src="images/waves-2.jpg" alt="simi photo">
+               <em>Simi- Dadin Kowa</em>              
+            </p>
+          </div>
+          <div class="carousel-item">
+            <p class="testimonial-paragraph">
+              I pick up my orders on my way to school. It is
+               so hassle-free, it is unbelievable!!!
+               <br> <img class="testiomony-photo rounded-circle" src="images/waves-3.jpg" alt="jephtha photo">
+               <em>Jephtha- Army Engineer</em> 
+               
+            </p>
+          </div>
+          <div class="carousel-item">
+            <p class="testimonial-paragraph ">
+              On my way from work I don't need to worry about
+              long queues, I already have my reservation.
+              <br> <img class="testiomony-photo rounded-circle" src="images/waves-1.2.jpg" alt="ekene image">
+             <em>Ekene- Unity FM</em>              
+            </p> 
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+      </div>
+
+    </section>
+
+
+       <!-- pricing section -->
+       <section class="pricing-section">
+        <div class=" pricing-plan row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col-lg-4 col-md-4 " >
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3  text-white bg-#1C2541 ">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem, ipsum dolor </li>
+                  <li>Lorem, ipsum dolor</li>
+                  <li>Lorem, ipsum dolor</li>
+                  <li>Lorem, ipsum dolor</li>
+                </ul>
+                <button type="button" class=" price-button btn btn-lg text-white ">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4" >
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3  text-white">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem, ipsum dolor</li>
+                  <li>Lorem, ipsum dolor</li>
+                  <li>Lorem, ipsum dolor</li>
+                  <li>Lorem, ipsum dolor</li>
+                </ul>
+                <button type="button" class=" price-button btn btn-lg text-white ">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4" >
+            <div class="card mb-4 rounded-3 shadow-sm ">
+              <div class="card-header py-3 text-white">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem, ipsum dolor</li>
+                  <li>Lorem, ipsum dolor</li>
+                  <li>Lorem, ipsum dolor</li>
+                  <li>Lorem, ipsum dolor</li>
+                </ul>
+                <button type="button" class=" price-button btn btn-lg text-white">Contact us</button>
+              </div>
+            </div>
+          </div>
+         
+        </div> 
+
+    </section>
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="#"><i class="fa fa-angle-double-right"></i>&raquo; Home</a></li>
+              <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+              <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+              <li><a href="#"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+              <li><a href="#"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+              <ul class="list-unstyled list-inline social text-center">
+                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+            </div>
+         
+        
+          <hr>
+        </div>	
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <p><u><a href="https://www.nationaltransaction.com/">Lorem, ipsum dolor</a></u> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse rerum nulla</p>
+            <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Ceasar's</a></p>
+          </div>
+          <hr>
+        </div>	
+      </div>
+
+
+
+
+
+
+    </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+  <script src="js/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+        
+</body>
+</html>

@@ -1,0 +1,236 @@
+
+  body{
+   background-color: #0D1321;
+  }
+ /* ceasar logo at top of page */
+  .navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.6rem;
+    position: relative;
+    bottom: 20px;
+  }
+  /* hat above ceasar logo */
+  .chef-hat{
+    width: 50px;
+    position: relative;
+    left: 23px;
+    top: 10px;   
+  }
+  /* call to action div */
+  .bread-delivery-div{
+    padding:  5% 10%;
+  }
+   /* call to action write-up */
+  .bread-delivery{
+      color: #D8D8F6 ;     
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 0.2ch;
+      font-size: 1.8rem;
+     
+  }
+  /* iphone image which becomes tilted on large screens */
+  .iphone-image{
+    width: 100%;
+    transform: rotate(340deg);   
+  } 
+ 
+  /* buttons */
+  .btn-label {
+   
+    display: inline-block;
+    padding: 6px 12px;
+   
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0;
+  }  
+  .btn {
+    margin-bottom: 10px;
+    margin-top: 10%;
+   margin-left: 10px;
+    position: relative;
+    top: 20px;
+  } 
+  .download-button-paragraph{   
+    display: inline-block;
+  } 
+  /* google play/ ios store icons  */
+  .download-icon{
+    width: 20px;
+    position: relative;
+    top: -3px;
+  }  
+  .price-button{
+    background-color:#1C2541 ;
+  }  
+  .enter-shop{
+    color: #D64550;
+    position: fixed;
+    bottom: 0;
+   right: 0;
+    font-size:  2rem;
+    z-index: 1;    
+  }
+  /* /buttons */
+
+/* assurances section */
+  .assurances{
+    background-color: #D8D8F6 ;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 7% 15%;
+    margin: 0;       
+  }
+  h4{
+    font-weight: bold;
+    letter-spacing: 0.4ch;
+    font-size: 1.6rem;
+  }  
+  .Asssurance-individual-div{
+    text-align: center;
+    padding: 5%;
+  }
+  .assurance-icon{
+    width: 25%;     
+  }  
+
+  /* testimonial section with carousel showing testimonials*/
+  .testimonial{
+    background-color: #DBB68F ;
+    margin: 0;
+  }  
+  
+  .carousel-inner{
+    padding: 7% 15%;
+  }
+  /* carousel write-ups */
+  .testimonial-paragraph{ 
+    text-align: center ;
+    line-height: 2 ;
+    letter-spacing: 0.2ch;
+    font-size: 1.8rem;
+  }
+  /* carousel photos */
+  .testiomony-photo{
+    width: 10%;
+   
+  }
+  /* pricing section */
+  .pricing-plan{
+    padding: 10% 5% ;
+    background-color: #D8D8F6 ;
+    margin: 0;
+  }
+ /* pricing cards */
+   .card-header{
+     background-color: #1C2541;
+   }
+   .card{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em; 
+    text-align: center;
+    box-shadow: 0 5px 10px rga(0,0,0,.2);  
+   }
+  .card-body{
+    background-color: #fff;       
+  } 
+  
+ /* footer section */
+#footer{
+     padding: 60px 0;
+     margin-top: 0;    
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+  padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+ /* media queries */
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+@media (max-width: 767px) {
+  .bread-delivery{
+   font-size: 1.4rem;    
+  } 
+ }
+ @media (max-width: 767px){
+  .iphone-image{
+    width: 80%;
+    transform: rotate(0deg);
+  }    
+}
+@media (max-width: 767px) {
+  .pricing-plan{
+    padding: 15% 20% ;    
+  } 
+ }
+ @media (max-width: 1200px) {
+  .enter-shop{
+   font-size: 1.8rem controls size of the enter shop icon with change in viewport;
+  } 
+ }
+ @media screen and (min-width:992px){
+  .nav-item {
+  line-height:80px;
+  }
+  }
+  
+  
+  
+    
+  
